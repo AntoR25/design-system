@@ -1,6 +1,6 @@
 <template>
   <Container>
-    <TitresH1> Accueil </TitresH1>
+    <TitresH1> Accueill </TitresH1>
 
     <TextesParagraphe> Bienvenue sur le site. </TextesParagraphe>
 
