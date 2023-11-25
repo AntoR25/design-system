@@ -78,6 +78,14 @@ definePageMeta({
           Images
         </CardsIconLink>
       </li>
+      <li>
+        <CardsIconLink to="/docs/composants/UserCard">
+          <template #icon>
+            <i class="ri-image-line"></i>
+          </template>
+          UserCard
+        </CardsIconLink>
+      </li>
     </ListsBasic>
   </Container>
 </template>
