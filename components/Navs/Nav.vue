@@ -12,6 +12,7 @@ const isOpen = ref(false);
       <nuxt-link to="/">
         <slot name="logo"> </slot>
       </nuxt-link>
+
     </div>
     <div>
     <ul class="hidden md:flex items-center justify-between space-x-8">

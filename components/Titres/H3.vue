@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="text-2xl font-bold text-gray-300 font-serif mb-2 pb-2 pt-6 border-b"
+    class="flex flex-wrap justify-start gap-4 text-2xl font-bold text-blue-300 font-serif mb-1 pb-1 pt-6"
   >
     <slot />
   </h1>

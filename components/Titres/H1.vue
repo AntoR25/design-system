@@ -1,6 +1,6 @@
 <template>
   <h1
-    class="text-4xl font-bold text-gray-100 font-serif mb-5 pb-3 pt-10 block border-b"
+    class="projects container-inner mx-auto text-xl border-gray-500 border-b py-16 mb-16 relative"
   >
     <slot />
   </h1>

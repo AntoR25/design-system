@@ -1,5 +1,5 @@
 <script setup>
-import { form, inputText, inputTextWithError, textarea } from "./code/inputs";
+import { form, inputText, inputTextWithError, textarea, checkbox, emailValue, quantity } from "./code/inputs";
 
 definePageMeta({
   layout: "docs",
@@ -54,6 +54,37 @@ const description = ref("");
 
     <TextesCode :code="textarea" />
 
+    <TitresH2>Number</TitresH2>
+
+    <InputsGroup class="max-w-xs">
+    <InputsLabel class="text-gray-100">Number:</InputsLabel>
+    <InputsNumber label="Number" v-model="quantity" />
+    </InputsGroup>
+   
+    <TextesCode :code="quantity" />
+
+    <TitresH2>Email</TitresH2>
+
+    <InputsGroup class="max-w-xs">
+    <InputsLabel class="text-gray-100">Mail:</InputsLabel>
+    <InputsEmail label="Email Address" v-model="emailValue" />
+    </InputsGroup>
+
+    <TextesCode :code="emailValue" />
+
+    <TitresH2>Radio</TitresH2>
+
+    <TitresH2>Select</TitresH2>
+
+    <TitresH2>Checkbox</TitresH2>
+
+    <InputsGroup class="max-w-xs">
+    <InputsLabel class="text-gray-100">Titre</InputsLabel>
+    <InputsCheckbox v-model="isChecked" name="exampleCheckbox" />
+  </InputsGroup>
+
+  <TextesCode :code="checkbox" />
+ 
     <TitresH2>Form</TitresH2>
 
     <InputsForm>

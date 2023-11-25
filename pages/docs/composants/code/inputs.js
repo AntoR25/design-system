@@ -14,6 +14,21 @@ export const textarea = `<InputsGroup class="max-w-xs">
     <InputsTextarea name="description" placeholder="Votre texte ..." rows="10" />
 </InputsGroup>`;
 
+export const checkbox = `<InputsGroup class="max-w-xs">
+<InputsLabel class="text-gray-100">Titre</InputsLabel>
+<InputsCheckbox v-model="isChecked" name="exampleCheckbox" />
+</InputsGroup>`;
+
+export const emailValue = `<InputsGroup class="max-w-xs">
+<InputsLabel class="text-gray-100">Mail :</InputsLabel>
+<InputsEmail label="Email Address" v-model="emailValue" />
+</InputsGroup>`;
+
+export const quantity = `<InputsGroup class="max-w-xs">
+<InputsLabel class="text-gray-100">Number:</InputsLabel>
+<InputsNumber label="Number" v-model="quantity" />
+</InputsGroup>`;
+
 export const form = `<InputsForm>
   <InputsGroup class="max-w-xs">
     <InputsLabel name="nom">Nom</InputsLabel>
