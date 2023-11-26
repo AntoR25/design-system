@@ -63,5 +63,21 @@ definePageMeta({
       </li>
     </ListsGrid>
 
+    <TitresH2> Change Log : </TitresH2>
+
+    <TitresH3>- Ajout des composants inputs Email, Checkbox, Number, Select, Radio. </TitresH3>
+
+    <TitresH3>- Ajout des pages Contact et Equipe. </TitresH3>
+
+    <TitresH3>- Ajout des composants de textes bold, underline, italic et citation. </TitresH3>
+
+    <TitresH3>- Ajout du composant UserCard. </TitresH3>
+
+
+
+
+
+
+
   </Container>
 </template>

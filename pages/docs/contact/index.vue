@@ -2,6 +2,7 @@
 definePageMeta({
   layout: "docs",
 });
+
 </script>
 
 <template>
@@ -13,7 +14,7 @@ definePageMeta({
             <label class="block mb-2 text-copy-primary" for="name">
                 Name
             </label>
-            <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4 text-black" required>
+            <input type="text" name="name" id="name" placeholder="Miss Medusa" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4 text-black" required>
         </div>
 
         <div class="w-full px-4 md:w-1/2">
@@ -31,9 +32,32 @@ definePageMeta({
         <textarea id="message" rows="5" name="message" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4 text-black" placeholder="Enter your message here." required></textarea>
     </div>
 
-    <div class="flex justify-end w-full">
-        <input type="submit" value="Submit" class="block bg-sky-700 hover:bg-sky-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+    <div class="flex justify-start w-full">
+        <div>
+    <input
+      type="submit"
+      value="Submit"
+      class="block bg-sky-700 hover:bg-sky-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
+      @click="afficherMessageErreur"
+    />
+    <p v-if="erreur" class="text-red-500 mt-2">Les clients simples, tels que vous, ne sont pas autorisés à nous contacter.</p>
+  </div>
     </div>
 </form>
     </Container>
   </template>
+
+<script>
+export default {
+  data() {
+    return {
+      erreur: false,
+    };
+  },
+  methods: {
+    afficherMessageErreur() {
+      this.erreur = true;
+    },
+  },
+};
+</script>

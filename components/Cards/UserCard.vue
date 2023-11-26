@@ -9,6 +9,7 @@ defineProps({
     default: 'User Card',
   },
 });
+
 </script>
 
 <template>
@@ -23,8 +24,18 @@ defineProps({
       <h2 class="mt-4 text-xl font-bold text-indigo-600 dark:text-indigo-400">{{ name }}</h2>
       <p class="mb-4 text-gray-600 dark:text-gray-300">{{ description }}</p>
       <div class="flex items-center justify-center">
-        <a href="#" class="rounded-full bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-700 dark:bg-indigo-400 dark:hover:bg-indigo-500">Portfolio</a>
-        <a href="#" class="ml-4 rounded-full bg-gray-300 px-4 py-2 hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600">Contact</a>
+        <router-link
+    to="/docs/composants/userinfo" 
+    class="rounded-full bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-700 dark:bg-indigo-400 dark:hover:bg-indigo-500"
+  >
+    Portfolio
+  </router-link>
+  <router-link
+      to="/docs/composants/userinfo" 
+      class="ml-4 rounded-full bg-gray-300 px-4 py-2 hover:bg-gray-400 dark:bg-gray-700 dark:hover:bg-gray-600"
+    >
+      Contact
+    </router-link>
       </div>
     </div>
   </div>

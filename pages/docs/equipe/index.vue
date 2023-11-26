@@ -24,8 +24,8 @@ definePageMeta({
 
   <section class="block border-l border-gray-300 m-8">
     <div class="pl-8">
-      <h3 class="text-gray-600 font-semibold text-sm ">Sally Boulala</h3>
-      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Chasseur de tortues</h3>
+      <h3 class="text-gray-600 font-semibold text-sm ">Maris antarctica</h3>
+      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Expert Scientifique</h3>
     </div>
    
         </section>
@@ -49,8 +49,8 @@ definePageMeta({
 
   <section class="block border-l border-gray-300 m-8">
     <div class="pl-8">
-      <h3 class="text-gray-600 font-semibold text-sm ">Amir Lemauvais</h3>
-      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Expert en méduses</h3>
+      <h3 class="text-gray-600 font-semibold text-sm ">Petunia noctilu</h3>
+      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Ecologiste végétal</h3>
     </div>
    
         </section>
@@ -74,8 +74,8 @@ definePageMeta({
 
   <section class="block border-l border-gray-300 m-8">
     <div class="pl-8">
-      <h3 class="text-gray-600 font-semibold text-sm ">Thommy Cousin</h3>
-      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Soigneur aquatique</h3>
+      <h3 class="text-gray-600 font-semibold text-sm ">Turrito dohrnii</h3>
+      <h3 class="bg-clip-text text-transparent bg-gradient-to-l from-[#005BC4] to-[#27272A] text-lg font-bold">Biologiste marins</h3>
     </div>
    
         </section>

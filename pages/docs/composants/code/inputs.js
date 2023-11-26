@@ -29,6 +29,16 @@ export const quantity = `<InputsGroup class="max-w-xs">
 <InputsNumber label="Number" v-model="quantity" />
 </InputsGroup>`;
 
+export const radioGender  = `<InputsGroup class="max-w-xs">
+<InputsLabel class="text-gray-100">Genre :</InputsLabel>
+<InputsRadio label="Gender" v-model="radioGender" />
+</InputsGroup>`;
+
+export const selectedMedusa  = `<InputsGroup class="max-w-xs">
+<InputsLabel class="text-gray-100">Shop, buying :</InputsLabel>
+<InputsSelect id="medusas" label="medusas" v-model="selectedMedusa" />
+</InputsGroup>`;
+
 export const form = `<InputsForm>
   <InputsGroup class="max-w-xs">
     <InputsLabel name="nom">Nom</InputsLabel>

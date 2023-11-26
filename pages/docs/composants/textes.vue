@@ -30,6 +30,40 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
 </TextesParagraphe>`"
     />
 
+    <TitresH2>Bold</TitresH2>
+
+    <TextesBold>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesBold>
+
+    <TextesCode
+      :code="`<TextesBold>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesBold>`"
+    />
+
+    <TitresH2>Italic</TitresH2>
+
+    <TextesItalic>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesItalic>
+
+    <TextesCode
+      :code="`<TextesItalic>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesItalic>`"
+    />
+
+    <TitresH2>Underline</TitresH2>
+
+<div class="bg-white p-2"><TextesUnderline>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesUnderline></div>
+    
+    
+    <TextesCode
+      :code="`<TextesUnderline>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesUnderline>`"
+    />
+
+
+    <TitresH2>Citation</TitresH2>
+
+    <TextesCitation>La vie est une citation réelle. - Auteur Anonyme.</TextesCitation>
+
+    <TextesCode
+      :code="`<TextesCitation>Lorem ipsum dolor sit amet consectetur adipisicing elit.</TextesCitation>`"
+    />
+
     <TitresH2>Code</TitresH2>
 
     <TextesParagraphe> Language par défaut : vue </TextesParagraphe>

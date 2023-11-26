@@ -1,5 +1,5 @@
 <script setup>
-import { form, inputText, inputTextWithError, textarea, checkbox, emailValue, quantity } from "./code/inputs";
+import { form, inputText, inputTextWithError, textarea, checkbox, emailValue, quantity, radioGender, selectedMedusa } from "./code/inputs";
 
 definePageMeta({
   layout: "docs",
@@ -17,6 +17,7 @@ const description = ref("");
     <TextesParagraphe>
       Vous pouvez utilisez les inputs de formulaire dans vos projets.
     </TextesParagraphe>
+    <br>
 
     <TitresH2>Input de texte</TitresH2>
 
@@ -74,7 +75,21 @@ const description = ref("");
 
     <TitresH2>Radio</TitresH2>
 
+    <InputsGroup class="max-w-xs">
+    <InputsLabel class="text-gray-100">Genre :</InputsLabel>
+    <InputsRadio label="Gender" v-model="radioGender" />
+    </InputsGroup>
+
+    <TextesCode :code="radioGender" />
+
     <TitresH2>Select</TitresH2>
+
+    <InputsGroup class="max-w-xs">
+    <InputsLabel class="text-gray-100">Shop</InputsLabel>
+    <InputsSelect id="medusas" label="medusas" v-model="selectedMedusa" />
+    </InputsGroup>
+
+    <TextesCode :code="selectedMedusa" />
 
     <TitresH2>Checkbox</TitresH2>
 
