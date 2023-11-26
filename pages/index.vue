@@ -68,7 +68,7 @@ dans l'ocean, de leur bien être, ainsi que de leur bon développement/croissanc
             <TextesParagraphe>L'entreprise collabora également avec des pêcheurs locaux pour promouvoir des pratiques de pêche durables, évitant ainsi la surpêche qui menaçait certaines espèces de méduses. Des programmes de nettoyage des océans furent également mis en place pour lutter contre la pollution plastique et protéger les habitats marins.</TextesParagraphe><br>
 
               <TextesParagraphe>Au fil des ans, <TextesBold>Medusa Sanctuary</TextesBold> devint un exemple inspirant de la manière dont la passion et l'engagement envers la préservation de la vie marine pouvaient entraîner des changements positifs. Les méduses, autrefois négligées et craintes, devinrent des ambassadrices de la santé des océans, symbolisant l'espoir d'un écosystème marin équilibré et préservé pour les générations futures.</TextesParagraphe><br>
-              <TextesCitation>Enssemble nous pouvons sauver les méduses, contribuez à un monde meilleur</TextesCitation>
+              <TextesCitation>Ensemble nous pouvons sauver les méduses, contribuez à un monde meilleur</TextesCitation>
   </Container>
 </layout>
 </template>
